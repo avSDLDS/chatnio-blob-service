@@ -20,12 +20,12 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 def root():
     return {
         "status": True,
-        "project": "Chat Nio Blob Service",
+        "project": "siyuer Blob Service",
         "description": "file processing and storage service",
         "service": SERVICE,
         "docs": EXPOSE + "/docs",
         "interface": EXPOSE + "/redoc",
-        "repository": "https://github.com/Deeptrain-Community/chatnio-blob-service",
+        "repository": "?",
     }
 
 
